@@ -1,5 +1,6 @@
 import { Kafka } from 'kafkajs';
 
+// update config as per your kafka credentials
 export const kafka = new Kafka({
   clientId: 'my-app',
   brokers: ['pkc-9q8rv.ap-south-2.aws.confluent.cloud:9092'],
